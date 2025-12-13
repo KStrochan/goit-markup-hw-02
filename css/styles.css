@@ -1,6 +1,7 @@
 body {
-    font-family: "Roboto", sans-serif;
-
+            font-family: "Roboto", sans-serif;
+            color: #434455;
+            background-color: #ffffff;
 }
 /* ---HEADER--- */
 .logo {
@@ -38,19 +39,19 @@ body {
 }
 .header address {
     font-style: normal;
-    font-family: var(--font-family);
+    font-family: "roboto", sans-serif;
         font-weight: 400;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--slate);
+        color: #434455;
 }
 .header address a {
     text-decoration: none;
-font-family: var(--font-family);
+font-family: "roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455
 }
@@ -62,16 +63,16 @@ font-family: var(--font-family);
     background-color: #2e2f42;
     color: #ffffff;
 }
-.heroMain { 
+.hero-main { 
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     text-align: center;
-    font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     margin-bottom: 32px; 
 }
-.herobutton {
+.hero-button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -83,11 +84,9 @@ font-family: var(--font-family);
     border-radius: 4px;
     cursor: pointer;
 }
-.herobutton:hover {
-    background-color: #3c49d1;
-}
-.herobutton:active {
-    background-color: #2e37a9;
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404bbf;
 }
 
 /* ---FEATURES SECTION--- */
@@ -97,14 +96,14 @@ font-family: var(--font-family);
 }
 .features-text {
     font-family: "Roboto", sans-serif;
-    color: #606070;
+    color: #434455;
 }
 
 /* ---TEAM SECTION--- */
 .team {
-    background-color: #f9f9ff;
+    background-color: #f4f4fd;
 }
-.teamList li{
+.team-list li{
     margin-bottom: 32px;
 }
    
@@ -114,24 +113,23 @@ font-family: var(--font-family);
     font-family: "Roboto", sans-serif;  
 
 }
-.teamMain {
+.team-main {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     text-align: center;
     font-size: 36px;
-    line-height: 111%;
+    line-height: 1.11;
     letter-spacing: 0.02em;
 }
 .team h3 {
-    gap: 32px;
     text-align: center;
     font-weight: 500;
-line-height: 111%;
+line-height: 1.11;
 background-color: #ffffff;
 }
 .team p {
     text-align: center;
-    color: #606070;
+    color: #434455;
     background-color: #ffffff;
 }
 /* ---PORTFOLIO SECTION--- */
@@ -139,22 +137,21 @@ background-color: #ffffff;
     list-style: none;
     font-family: "Roboto", sans-serif;  
 }
-.portfolioMain {
+.portfolio-main {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     text-align: center;
     font-size: 36px;
-    line-height: 111%;
+    line-height: 1.11;
     letter-spacing: 0.02em;
 }
-.portfolioText {
+.portfolio-text {
     font-family: "Roboto", sans-serif;
-    color: #606070;
+    color: #434455;
 } 
 /* ---FOOTER SECTION--- */
 .footer {
     background-color: #2e2f42;
-    color: #ffffff;
 }
 .footer-logo {
     font-family: "Raleway", sans-serif;
@@ -167,5 +164,9 @@ background-color: #ffffff;
     color: #ffffff;
 }
 .footer-logo-accent {
-    color: #4d5ae5;
+    color: #f4f4fd;
+}
+.footer p {
+    color: #f4f4fd;
+
 }
